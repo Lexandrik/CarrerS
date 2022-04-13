@@ -1,7 +1,7 @@
 import pandas as pd
 import requests
 import openpyxl
-######check
+
 # делаем запрос на API careerspace
 response = requests.get('https://careerspace.app/api/v1/jobs/filter/?sortBy=new-desc&remote=false&take=50000')
 # преобразуем ответ в JSON формат для обработки
